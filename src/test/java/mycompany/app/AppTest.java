@@ -64,7 +64,7 @@ public class AppTest
 	}
 
 	    @Test
-    public void Valid() 
+    public void next() 
 		throws InterruptedException { 
 
 		//get web page
