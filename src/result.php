@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <title>Result</title>
+    <title>Results</title>
     <body>
         <form method="POST" action="index.php">
             <?php echo $_POST["searchItem"]?><BR>
