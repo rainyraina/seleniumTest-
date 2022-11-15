@@ -64,7 +64,7 @@ public class AppTest
 	}
 
 	    @Test
-    public void Validation() 
+    public void Valid() 
 		throws InterruptedException { 
 
 		//get web page
@@ -74,7 +74,7 @@ public class AppTest
 
 		//enter input
 		//driver.findElement(By.name("email")).sendKeys(validEmail);
-		driver.findElement(By.name("searchItem")).sendKeys(validPassword);
+		driver.findElement(By.name("searchItem")).sendKeys(validEmail);
 		//click submit
 		driver.findElement(By.name("submit")).submit();
 	
