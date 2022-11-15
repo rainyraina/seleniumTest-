@@ -24,7 +24,8 @@
     <h2>3X03 Lab Test</h2>
 
     <form name="myForm" action="result.php" onsubmit="return validateForm()" method="post">
-      Search: <input type="text" name="searchItem">
+      <label>Search:</label> 
+      <input type="text" name="searchItem">
       <input type="submit" name="submit" value="Submit">
     </form>
 
