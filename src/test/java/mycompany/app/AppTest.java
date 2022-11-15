@@ -47,7 +47,7 @@ public class AppTest
 		//get web page
 		driver.get(url);
 		//wait until page is loaded or timeout error
-		wait.until(ExpectedConditions.titleContains("localhost:5000/")); 
+		wait.until(ExpectedConditions.titleContains("")); 
 
 		//enter input
 		//driver.findElement(By.name("email")).sendKeys(validEmail);
@@ -57,7 +57,7 @@ public class AppTest
 	
 		//check result 
 		String expectedResult = "Dashboard |"; 
-		boolean isResultCorrect = wait.until(ExpectedConditions.titleContains("localhost:5000/")); 
+		boolean isResultCorrect = wait.until(ExpectedConditions.titleContains("")); 
 		assertTrue(isResultCorrect == true); 
 	}
 		
