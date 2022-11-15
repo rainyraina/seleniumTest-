@@ -53,10 +53,10 @@ public class AppTest
 		//driver.findElement(By.name("email")).sendKeys(validEmail);
 		//driver.findElement(By.name("searchItem")).sendKeys(validPassword);
 		//click submit
-		driver.findElement(By.name("submit")).submit();
+		//driver.findElement(By.name("submit")).submit();
 	
 		//check result 
-		String expectedResult = "Dashboard |"; 
+		//String expectedResult = "Dashboard |"; 
 		boolean isResultCorrect = wait.until(ExpectedConditions.titleContains("")); 
 		assertTrue(isResultCorrect == true); 
 	}
