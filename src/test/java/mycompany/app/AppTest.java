@@ -41,7 +41,7 @@ public class AppTest
 	}	 
 	
     @Test
-    public void testLoginWithValidEmailValidPassword() 
+    public void testNextPage() 
 		throws InterruptedException { 
 
 		//get web page
@@ -53,11 +53,11 @@ public class AppTest
 		//driver.findElement(By.name("email")).sendKeys(validEmail);
 		driver.findElement(By.name("searchItem")).sendKeys(validPassword);
 		//click submit
-		//driver.findElement(By.name("submit")).submit();
+		driver.findElement(By.name("submit")).submit();
 	
 		//check result 
 		//String expectedResult = "Dashboard |"; 
-		boolean isResultCorrect = wait.until(ExpectedConditions.titleContains("Home")); 
+		boolean isResultCorrect = wait.until(ExpectedConditions.titleContains("Result")); 
 		assertTrue(isResultCorrect == true); 
 	}
 		
