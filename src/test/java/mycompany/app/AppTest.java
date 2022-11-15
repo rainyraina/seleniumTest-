@@ -62,27 +62,7 @@ public class AppTest
 		boolean isResultCorrect = wait.until(ExpectedConditions.titleContains("Home")); 
 		assertTrue(isResultCorrect == true); 
 	}
-	    @Test
-    public void testNextPage() 
-		throws InterruptedException { 
-
-		//get web page
-		driver.get(url);
-		//wait until page is loaded or timeout error
-		wait.until(ExpectedConditions.titleContains("Home")); 
-
-		//enter input
-		//driver.findElement(By.name("email")).sendKeys(validEmail);
-		driver.findElement(By.name("searchItem")).sendKeys(validUser);
-		//click submit
-		driver.findElement(By.name("submit")).submit();
-	
-		//check result 
-		//String expectedResult = "Dashboard |"; 
-	    	driver.get(url2);
-		boolean isResultCorrect = wait.until(ExpectedConditions.titleContains("Results")); 
-		assertTrue(isResultCorrect == true); 
-	}
+  
 		
 		
 
