@@ -25,7 +25,7 @@
 
     <form name="myForm" action="result.php" onsubmit="return validateForm()" method="post">
       Search: <input type="text" name="searchItem">
-      <input type="submit" value="Submit">
+      <input type="submit" name="submit" value="Submit">
     </form>
 
   </body>
