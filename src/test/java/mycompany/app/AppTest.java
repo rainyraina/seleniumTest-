@@ -51,7 +51,7 @@ public class AppTest
 
 		//enter input
 		//driver.findElement(By.name("email")).sendKeys(validEmail);
-		driver.findElement(By.name("searchItem")).sendKeys(validPassword);
+		//driver.findElement(By.name("searchItem")).sendKeys(validPassword);
 		//click submit
 		driver.findElement(By.name("submit")).submit();
 	
