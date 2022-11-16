@@ -23,8 +23,8 @@ public class AppTest
 {
 	WebDriver driver; 
 	WebDriverWait wait; 
-	String url = "http://192.168.245.128:5000";
-	String url2 = "http://192.168.245.128:5000/result.php";
+	String url = "http://172.17.0.3:5000";
+	String url2 = "http://172.17.0.3:5000/result.php";
 	String validEmail = "userm";
 	String validPassword = "/<(.*)>/;";
 	String invalidEmail = "none@example.com";
