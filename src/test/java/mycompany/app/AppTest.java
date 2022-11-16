@@ -58,7 +58,6 @@ public class AppTest
 	
 		//check result 
 		//String expectedResult = "Dashboard |"; 
-	    	driver.get(url);
 		boolean isResultCorrect = wait.until(ExpectedConditions.titleContains("Home")); 
 		assertTrue(isResultCorrect == true); 
 	}
@@ -80,7 +79,6 @@ public class AppTest
 	
 		//check result 
 		//String expectedResult = "Dashboard |"; 
-	    	driver.get(url2);
 		boolean isResultCorrect = wait.until(ExpectedConditions.titleContains("Results")); 
 		assertTrue(isResultCorrect == true); 
 	}
