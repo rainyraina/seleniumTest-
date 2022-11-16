@@ -58,6 +58,7 @@ public class AppTest
 	
 		//check result 
 		//String expectedResult = "Dashboard |"; 
+	    	driver.get(url);
 		boolean isResultCorrect = wait.until(ExpectedConditions.titleContains("Home")); 
 		assertTrue(isResultCorrect == true); 
 	}
